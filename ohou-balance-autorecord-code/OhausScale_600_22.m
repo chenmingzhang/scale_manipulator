@@ -1,4 +1,5 @@
 %% -------------Program using matlab to auto record weight result--------
+% check if it is working
 % --measured by Ohause NVL20000/2 scale----------------------------------
 %----written by Chenming Zhang on 10-09-2012------------------------------
 % the time interval for output is used by pause command in matlab rather than
