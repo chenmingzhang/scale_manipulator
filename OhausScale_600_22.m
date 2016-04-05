@@ -63,6 +63,7 @@ s4.BaudRate = 9600;
 s4.Terminator = 'CR'; 
 %d1 = zeros(10,1) this is used for digits not strings
 %get(s,{'OutputBufferSize','BytesToOutput'})
+%
 
 
 fn=fopen('output.dat','a+');
