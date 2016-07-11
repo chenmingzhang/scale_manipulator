@@ -14,7 +14,7 @@ reading_time =["" for x in range(no_of_readings)]
 fid= open('scale_record.dat','a',0)
 
 for n in range(0, no_of_readings-1):
-    ser.write('P\n\r')
+    ser.write('w\n\r')
     for i in range(0,rows_per_read):
         #strs[n][i] = ser.readline()
         temp[i]=ser.readline()
